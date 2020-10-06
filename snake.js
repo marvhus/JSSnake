@@ -1,3 +1,5 @@
+// Snake.js
+
 function Snake() {
 	this.x = 0;
 	this.y = 0;
@@ -28,7 +30,7 @@ function Snake() {
 				this.xSpeed = -scale * 1;
 				this.ySpeed = 0;
 				break;
-			case "Right" "d":
+			case "Right", "d":
 				this.xSpeed = scale * 1;
 				this.ySpeed = 0;
 				break;
